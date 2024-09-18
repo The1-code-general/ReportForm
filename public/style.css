@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #800080, #0000ff); /* Red to Yellow to Green to Purple to Blue */
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.report-section {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #0052d4; /* Deep Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button:hover {
+    background-color: #004bb5; /* Slightly darker blue */
+    transform: scale(1.05);
+  }
+  button:active {
+    transform: scale(0.95);
+  }
+
+button.addTaskButton {
+    margin-top: 15px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.addTaskButton:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    background-color: #0052d4;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 570px;
+    margin-bottom: 20px;
+    width: 15%;
+    border-radius: 5px;
+}
+
+
+button[type="submit"]:hover {
+    background-color:  #0056b3;
+}
+
+.report-section h2 {
+    margin-bottom: 15px;
+    color: #6c757d;
+}
+
+.task-entry {
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+textarea#recipients {
+    margin-top: 20px;
+}
+
+
+
+.report-section {
+    margin-bottom: 30px;
+}
+.task-entry {
+    margin-bottom: 20px;
+}
+.task-entry input, .task-entry textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.task-entry label {
+    font-weight: bold;
+}
+h2 {
+    color: #333;
+}
